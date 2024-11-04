@@ -2,7 +2,7 @@ import { Box, TextField, useTheme } from '@mui/material'
 import { constants } from './constants';
 import { SearchSharp } from '@mui/icons-material';
 interface ISearchProps {
-  onChange?: () => void;
+  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
 export const Search = ({ onChange }: ISearchProps) => {
