@@ -23,7 +23,7 @@ export const Home = () => {
     <Layout>
       <NewNote />
       <Search
-        onChange={(event) => setInputText(event.target.value.toUpperCase())}
+        onChange={(event: React.ChangeEvent<HTMLInputElement>) => setInputText(event.target.value.toUpperCase())}
       />
       <Box
         display='flex'
