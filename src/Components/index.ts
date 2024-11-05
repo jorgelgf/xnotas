@@ -4,3 +4,4 @@ export * from "./NewNote/NewNote";
 export * from "./Button/AppButton";
 export * from "./Cards/Cards";
 export * from "./Search/Search";
+export * from "./AppModal/AppModal";
