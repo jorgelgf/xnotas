@@ -24,7 +24,7 @@ export const Home = () => {
       <Search
         onChange={(event: React.ChangeEvent<HTMLInputElement>) => setInputText(event.target.value.toUpperCase())}
       />
-
+      aqui ó
       <Box
         display='flex'
         flexWrap='wrap'
@@ -34,7 +34,6 @@ export const Home = () => {
       >
         tenho mais este campo
         <ShowCards />
-        Vou atualizar aqui
       </Box>
     </Layout >
   );
