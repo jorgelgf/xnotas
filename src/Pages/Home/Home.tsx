@@ -24,7 +24,7 @@ export const Home = () => {
       <Search
         onChange={(event: React.ChangeEvent<HTMLInputElement>) => setInputText(event.target.value.toUpperCase())}
       />
-      neste meu campo eu fiz uma alteracao
+
       <Box
         display='flex'
         flexWrap='wrap'
@@ -33,6 +33,7 @@ export const Home = () => {
         gap={theme.spacing(2)}
       >
         <ShowCards />
+        Vou atualizar aqui
       </Box>
     </Layout >
   );
