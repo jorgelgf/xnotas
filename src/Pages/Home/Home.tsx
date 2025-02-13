@@ -32,6 +32,7 @@ export const Home = () => {
         justifyContent='center'
         gap={theme.spacing(2)}
       >
+        tenho mais este campo
         <ShowCards />
         Vou atualizar aqui
       </Box>
