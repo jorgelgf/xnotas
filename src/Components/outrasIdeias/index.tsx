@@ -1,9 +1,15 @@
 export const OutrasIdeias = () => {
   const number = 2
-  return <div>
-
+  return <>
     <div>
-      <span>número {number}</span>
+      <div>
+        <span>número {number}</span>
+      </div>
     </div>
-  </div>
+    <div>
+
+      <span>bora testar</span>
+      <div>Projeto qualquer, alguma coisa</div>
+    </div>
+  </>
 }
