@@ -24,7 +24,15 @@ export const Home = () => {
       <Search
         onChange={(event: React.ChangeEvent<HTMLInputElement>) => setInputText(event.target.value.toUpperCase())}
       />
+<<<<<<< HEAD
       aqui ó
+=======
+<<<<<<< HEAD
+
+=======
+      Aqui vai minha alteração atual
+>>>>>>> origin/feat/alteracao
+>>>>>>> origin/feat/alteracao2
       <Box
         display='flex'
         flexWrap='wrap'
