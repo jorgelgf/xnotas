@@ -1,3 +1,3 @@
 export const TesteComponente = () => {
-  return <div>TESTE</div>
+  return <div>TESTE componente aqui</div>
 }
