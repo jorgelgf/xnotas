@@ -6,10 +6,9 @@ export const Home = () => {
   const theme = useTheme();
 
   const ShowCards = () => {
-    const filterText = Object.keys(localStorage).
-      filter((text) => text.includes(inputText));
+    const filterText: string[] = Object.keys(localStorage).
+      filter((text: string) => text.includes(inputText));
     return filterText.map((item, index) => {
-      console.log(typeof (item[0]));
       return (
         < div key={index} >
           {
