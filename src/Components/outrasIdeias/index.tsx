@@ -1,3 +1,9 @@
 export const OutrasIdeias = () => {
-  return <div>Outras ideias</div>
+  const number = 2
+  return <div>
+
+    <div>
+      <span>número {number}</span>
+    </div>
+  </div>
 }
