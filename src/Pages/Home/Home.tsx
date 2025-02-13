@@ -6,10 +6,9 @@ export const Home = () => {
   const theme = useTheme();
 
   const ShowCards = () => {
-    const filterText = Object.keys(localStorage).
-      filter((text) => text.includes(inputText));
+    const filterText: string[] = Object.keys(localStorage).
+      filter((text: string) => text.includes(inputText));
     return filterText.map((item, index) => {
-      console.log(typeof (item[0]));
       return (
         < div key={index} >
           {
@@ -25,7 +24,11 @@ export const Home = () => {
       <Search
         onChange={(event: React.ChangeEvent<HTMLInputElement>) => setInputText(event.target.value.toUpperCase())}
       />
+<<<<<<< HEAD
 
+=======
+      Aqui vai minha alteração atual
+>>>>>>> origin/feat/alteracao
       <Box
         display='flex'
         flexWrap='wrap'
@@ -33,6 +36,7 @@ export const Home = () => {
         justifyContent='center'
         gap={theme.spacing(2)}
       >
+        tenho mais este campo
         <ShowCards />
         Vou atualizar aqui
       </Box>
